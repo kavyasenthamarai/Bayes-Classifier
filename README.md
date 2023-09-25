@@ -24,7 +24,7 @@ Output:
 ## Program:
 Developed by: KAVYA K
 Register Number: 212222230065
-'''
+```
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn.model_selection import train_test_split
@@ -53,8 +53,7 @@ y_pred = clf.predict(X_test)
 
 accu = accuracy_score(y_test, y_pred)
 print("Accuracy:",accu*100)
-
- '''
+```
 
 ## Output:
 ![image](https://github.com/kavyasenthamarai/Bayes-Classifier/assets/118668727/9269b6f1-0e6d-4e64-988e-951110ff96a1)
